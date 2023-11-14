@@ -1,0 +1,6 @@
+transformers==4.34.0
+torchvision==0.15.2
+torch==2.0.1
+llama_hub==0.0.43
+llama_index==0.8.67
+braintrust==0.0.73
