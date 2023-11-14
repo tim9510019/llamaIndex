@@ -19,9 +19,7 @@ queryWord = "Please answer with traditional Chinese. (ZH)"
 queryWord += "Please organize the above text from an economic and political macro perspective and output it in the form of a paper."
 queryWord += "Please help me deduce from all important dependencies, explain it, and make it relatively correct."
 queryWord += """Please give as "1. Stocks or real estate:, 2. commodities:, 3. Dollar or Short-term bonds:, 4. Long-term bonds:"."""
-queryWord += (
-    "Please add the most interesting questions for readers and provide answers."
-)
+queryWord += "Please add interesting questions for readers and provide answers."
 queryWord += "Please include some economic formulas to support the viewpoints."
 
 
