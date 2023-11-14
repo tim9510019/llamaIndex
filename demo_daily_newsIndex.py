@@ -15,13 +15,15 @@ openai_api_key = os.environ["OPENAI_API_KEY"]
 srcDir = "./srcDataV1"
 datetime = "2023-11-13"
 
-queryWord = "Please answer with traditional Chinese. (ZH)"
+queryWord = "Please think with english and then output with Chinese (zh-cht)."
 queryWord += "Please organize the above text from an economic and political macro perspective and output it in the form of a paper."
-queryWord += "Please help me deduce from all important dependencies, explain it, and make it relatively correct."
-queryWord += """Please give as "1. Stocks or real estate:, 2. commodities:, 3. Dollar or Short-term bonds:, 4. Long-term bonds:"."""
+queryWord += "Please give me view points of different asset classes"
+queryWord += "For these view points, please help me deduce from critical indices and events above, explain it, and make it relatively correct."
+queryWord += "Please mention critical indices (numbers or changes) in the article."
+queryWord += "Please mention critical events in the article."
 queryWord += "Please add interesting questions for readers and provide answers."
 queryWord += "Please include some economic formulas to support the viewpoints."
-
+queryWord += """Please give as "Title, Abstract, Stocks or real estate, Commodities, Dollar or Short-term bonds, Long-term bonds, QA, Formula"."""
 
 srcFiles = [os.path.join(srcDir, x) for x in os.listdir(srcDir)]
 
